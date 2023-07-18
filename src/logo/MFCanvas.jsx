@@ -1,21 +1,25 @@
 import { Suspense } from "react";
 import styled from "styled-components";
+
+import { NoToneMapping } from "three";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import { Physics } from "@react-three/rapier";
+
 import { MFLogos } from "./MFLogos";
 import { BoundingBox } from "./BoundingBox";
 
 const Holder = styled.div`
   position: absolute;
   inset: 0;
+  background: linear-gradient(135deg, transparent, black);
 `;
 
 export const MFCanvas = () => {
   return (
     <Holder>
       <Suspense fallback={null}>
-        <Canvas linear flat>
+        <Canvas flat>
           <Physics gravity={[0, -4, 0]} colliders="hull">
             <MFLogos />
             <BoundingBox position={[0, 5, 0]} />
