@@ -8,14 +8,21 @@
     "push-gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose"
   },
   "devDependencies": {
+    "buffer": "^6.0.3",
     "prettier": "3.0.0",
     "process": "^0.11.10",
     "shx": "0.3.3",
     "typescript": "5.1.6"
   },
   "dependencies": {
+    "@react-three/drei": "^9.78.2",
+    "@react-three/fiber": "^8.13.5",
+    "@react-three/rapier": "^1.1.1",
+    "@types/react": "^18.2.15",
     "parcel": "^2.9.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.0.4",
+    "three": "^0.154.0"
   }
 }

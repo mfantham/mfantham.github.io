@@ -1,3 +1,5 @@
+import { MFCanvas } from "../logo/MFCanvas";
+
 export const Landing = () => {
-  return <div>Marcus</div>;
+  return <MFCanvas />;
 };
