@@ -1,0 +1,157 @@
+{
+  "main": {
+    "name": "Marcus Fantham",
+    "description": "Scientific Software Engineer<br/>MEng (Oxford), MRes PhD (Cambridge)",
+    "image": "profilepic.jpg",
+    "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "contactMessage": "Drop me a message below if you want to chat about anything",
+    "github": "https://github.com/mfantham",
+    "website": "https://fnt.hm",
+    "resumeDownload": "",
+    "address": {
+      "city": "San Diego",
+      "state": "California"
+    },
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://facebook.com/mfantham",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/fantm_science",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/marcus-fantham-b6936a82/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://instagram.com/s.d.sunset/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/mfantham",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
+      {
+        "school": "University of Cambridge",
+        "degree": "PhD in Super-resolution microscopy",
+        "graduated": "October 2015 - December 2018",
+        "description": "Hardware, software, and applications of super-resolution microscopy. See my thesis for more details!"
+      },
+      {
+        "school": "University of Cambridge",
+        "degree": "Masters in Research (MRes)",
+        "graduated": "October 2014 - September 2015",
+        "description": "As part of the IPES CDT, I took courses in advanced optics and photonics, and completed two research projects, graduating top of my class of 25"
+      },
+      {
+        "school": "University of Oxford",
+        "degree": "Masters in Engineering Science (MEng)",
+        "graduated": "October 2010 - September 2014",
+        "description": "Two years studying core topics in all engineering disciplines, followed by two years specializing in optics and medical engineering. This culminated in a machine vision Masters project in Python, which kick-started my interest in software engineering."
+      }
+    ],
+    "work": [
+      {
+        "company": "ONI Inc.",
+        "title": "Domain Expert Software Engineer",
+        "years": "January 2022 - Present",
+        "description": ""
+      },
+      {
+        "company": "ONI UK",
+        "title": "Software Engineer",
+        "years": "January 2019 - December 2021",
+        "description": ""
+      },
+      {
+        "company": "University of Cambridge",
+        "title": "Tutor, Teaching Assistant, and Academic Interviewer",
+        "years": "January 2015 - December 2018",
+        "description": "I love passing my knowledge on to the next generation, and have been teaching various subjects since the age of 14. At Cambridge I found many opportunities to supervise undergraduate students, and was honored in my latter two years to interview Engineering applicants."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Python",
+        "level": "60%"
+      },
+      {
+        "name": "VueJs",
+        "level": "55%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "50%"
+      },
+      {
+        "name": "CSS",
+        "level": "90%"
+      },
+      {
+        "name": "PHP",
+        "level": "80%"
+      },
+      {
+        "name": "Swift",
+        "level": "50%"
+      },
+      {
+        "name": "JAVA",
+        "level": "80%"
+      }
+    ]
+  },
+  "publications": {},
+  "portfolio": {
+    "projects": [
+      {
+        "title": "First Person Bioimage",
+        "category": "Browser-native 3D-rendering software published during my PhD.",
+        "image": "fpb.png",
+        "url": "https://fpb.fnt.hm"
+      },
+      {
+        "title": "Video Poker Calculations",
+        "category": "A web app for calculating optimal strategies for video poker, utilizing WebGPU for fast calculations. Inspired after a trip to Las Vegas!",
+        "image": "02.jpg",
+        "url": "https://poker.fnt.hm"
+      },
+      {
+        "title": "Swim tracker",
+        "category": "A quick website using the Google Fit API and Solid.js to track my swimming sessions.",
+        "image": "03.jpg",
+        "url": "https://swim.fnt.hm"
+      },
+      {
+        "title": "360",
+        "category": "A 360 photo and video viewer, built using React and Three.js",
+        "image": "04.jpg",
+        "url": "https://360.fnt.hm"
+      },
+      {
+        "title": "CODI",
+        "category": "Build since 2019 as part of the ONI software team, this website captures, analyses, visualizes, and socializes super-resolution microscopy data. Copyright ONI Inc.",
+        "image": "05.jpg",
+        "url": "https://alto.codi.bio"
+      },
+      {
+        "title": "Apple Material CSS",
+        "category": "CSS library to mimic Apple's glass-effect materials",
+        "image": "06.jpg",
+        "url": "https://github.com/mfantham/apple-glass-css"
+      }
+    ]
+  }
+}
