@@ -14,5 +14,13 @@ export const GlobalStyle = createGlobalStyle`
   body {
     color: white;
     background: var(--dark-blue);
+    body {
+      font-family: Lato, Verdana, sans-serif;
+    }
+  }
+
+  h1, h2, h3, h4, h5 {
+    font-family: Cabin;
+    font-weight: 700;
   }
 `;
