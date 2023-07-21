@@ -1,7 +1,6 @@
 import { Suspense } from "react";
 import styled from "styled-components";
 
-import { NoToneMapping } from "three";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import { Physics } from "@react-three/rapier";
@@ -22,7 +21,7 @@ export const MFCanvas = () => {
         <Canvas flat>
           <Physics gravity={[0, -4, 0]} colliders="hull">
             <MFLogos />
-            <BoundingBox position={[0, 5, 0]} />
+            <BoundingBox position={[0, 3, 0]} />
           </Physics>
           <OrbitControls
             autoRotate
