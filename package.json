@@ -26,6 +26,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "styled-components": "^6.0.4",
-    "three": "^0.154.0"
+    "three": "^0.154.0",
+    "wouter": "^2.11.0"
   }
 }

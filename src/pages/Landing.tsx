@@ -1,8 +1,7 @@
 import styled from "styled-components";
-import { MFCanvas } from "../logo/MFCanvas";
 
 const LandingHolder = styled.div`
-  position: absolute;
+  height: 100vh;
   z-index: 1;
   inset: 0;
   display: flex;
@@ -79,32 +78,29 @@ const ButtonGrey = styled(Button)`
 
 export const Landing = () => {
   return (
-    <>
-      <MFCanvas />
-      <LandingHolder>
-        <Title>
-          <TitleShadow>Marcus Fantham</TitleShadow>
-          <M>M</M>
-          <span>arcus</span> <F>F</F>
-          <span>antham</span>
-        </Title>
-        <Subtitle>Scientific software engineer</Subtitle>
-        <ButtonsHolder>
-          <Button
-            href="https://www.linkedin.com/in/marcus-fantham-b6936a82"
-            target="_blank"
-          >
-            {/* <i className="fa-solid fa-file-arrow-down"></i> */}
-            {/* Resume */}
-            <i className="fa-brands fa-linkedin" />
-            LinkedIn
-          </Button>
-          <ButtonGrey href="https://github.com/mfantham" target="_blank">
-            <i className="fa-brands fa-github" />
-            Github
-          </ButtonGrey>
-        </ButtonsHolder>
-      </LandingHolder>
-    </>
+    <LandingHolder>
+      <Title>
+        <TitleShadow>Marcus Fantham</TitleShadow>
+        <M>M</M>
+        <span>arcus</span> <F>F</F>
+        <span>antham</span>
+      </Title>
+      <Subtitle>Scientific software engineer</Subtitle>
+      <ButtonsHolder>
+        <Button
+          href="https://www.linkedin.com/in/marcus-fantham-b6936a82"
+          target="_blank"
+        >
+          {/* <i className="fa-solid fa-file-arrow-down"></i> */}
+          {/* Resume */}
+          <i className="fa-brands fa-linkedin" />
+          LinkedIn
+        </Button>
+        <ButtonGrey href="https://github.com/mfantham" target="_blank">
+          <i className="fa-brands fa-github" />
+          Github
+        </ButtonGrey>
+      </ButtonsHolder>
+    </LandingHolder>
   );
 };
