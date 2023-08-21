@@ -9,7 +9,7 @@ import { MFLogos } from "./MFLogos";
 import { BoundingBox } from "./BoundingBox";
 
 const Holder = styled.div`
-  position: absolute;
+  position: fixed;
   inset: 0;
   background: linear-gradient(135deg, transparent, black);
 `;
