@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import { ScrollDownButton } from "./components/ScrollDownButton";
+import { mfBoxShadow } from "../style/GlassDiv";
 
 const LandingHolder = styled.div`
   height: 100vh;
@@ -60,6 +62,7 @@ const Button = styled.a`
   cursor: pointer;
   color: white;
   text-decoration: none;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.74);
 
   display: flex;
   align-items: center;
@@ -101,6 +104,7 @@ export const Landing = () => {
           Github
         </ButtonGrey>
       </ButtonsHolder>
+      <ScrollDownButton />
     </LandingHolder>
   );
 };

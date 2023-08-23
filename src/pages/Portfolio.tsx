@@ -1,4 +1,7 @@
 import styled from "styled-components";
+
+import { GlassDiv, mfBoxShadow } from "../style/GlassDiv";
+
 import fpbImage from "../images/fpb.webp";
 import codiImage from "../images/codi.webp";
 import pokerImage from "../images/poker.webp";
@@ -13,22 +16,6 @@ const PortfolioHolder = styled.div`
   & h2 {
     margin: 15px;
   }
-`;
-
-const GlassDiv = styled.div`
-  background: rgba(0, 0, 0, 0.15);
-  backdrop-filter: blur(10px);
-  border-radius: 10px;
-  padding: 20px;
-  margin: 20px;
-  max-width: 900px;
-  width: 100%;
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 `;
 
 const PortfolioGrid = styled.div`
@@ -56,6 +43,8 @@ const PortfolioImage = styled.a`
 
 const ImageLink = styled.div`
   position: relative;
+  margin-top: 5px;
+  box-shadow: ${mfBoxShadow};
 `;
 
 const Description = styled.div`
