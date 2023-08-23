@@ -4,6 +4,7 @@ import { MFCanvas } from "./logo/MFCanvas";
 import { Landing } from "./pages";
 import { Portfolio } from "./pages/Portfolio";
 import { GlobalStyle } from "./style/GlobalStyle";
+import { LogoCanvas } from "./logo/LogoCanvas";
 
 const ScrollablePage = styled.div`
   position: absolute;
@@ -14,6 +15,11 @@ const ScrollablePage = styled.div`
 
 export default () => {
   console.log("Nothing to see here 👀");
+
+  if (location.pathname === "/logo") {
+    return <LogoCanvas />;
+  }
+
   return (
     <>
       <GlobalStyle />
