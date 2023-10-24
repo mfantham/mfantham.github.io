@@ -4,8 +4,10 @@ import { createRoot } from "react-dom/client";
 import App from "./App";
 import { checkForRedirect } from "./rerouting";
 
-// checkForRedirect();
+const redirecting = checkForRedirect();
 
-const rootElement = document.getElementById("root");
-const root = createRoot(rootElement);
-root.render(<App />);
+if (!redirecting) {
+  const rootElement = document.getElementById("root");
+  const root = createRoot(rootElement);
+  root.render(<App />);
+}

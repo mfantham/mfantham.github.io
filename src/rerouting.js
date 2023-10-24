@@ -8,5 +8,7 @@ export const checkForRedirect = () => {
   const path = window.location.pathname;
   if (redirects[path]) {
     window.location.href = redirects[path];
+    return true;
   }
+  return false;
 };
